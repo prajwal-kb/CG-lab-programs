@@ -1,4 +1,5 @@
 // Develop a menu driven program to animate a flag using Bezier Curve algorithm
+
 #include <GL/glut.h>
 #include <math.h>
 #include <stdio.h>
