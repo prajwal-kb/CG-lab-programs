@@ -1,3 +1,5 @@
+// Draw a colour cube and spin it using OpenGL transformation matrices.
+
 #include <GL/freeglut_std.h>
 #include <GL/gl.h>
 #include <GL/glu.h>

@@ -1,3 +1,5 @@
+// To draw a simple shaded scene consisting of a teapot on a table.
+
 #include <GL/freeglut_std.h>
 #include <GL/gl.h>
 #include <GL/glut.h>

@@ -1,3 +1,5 @@
+// Create and rotate a Triangle about origin and a fixed point.
+
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glut.h>
