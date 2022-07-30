@@ -66,10 +66,10 @@ void myshape(int w, int h) {
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity();
   if (w <= h)
-    glOrtho(-2.0, 2.0, -2.0 * (GLfloat)w / (GLfloat)h,
-            2.0 * (GLfloat)w / (GLfloat)h, -10, 10);
+    glOrtho(-2.0, 2.0, -2.0 * (GLfloat)h / (GLfloat)w,
+            2.0 * (GLfloat)h / (GLfloat)w, -10, 10);
   else
-    glOrtho(-2.0 * (GLfloat)h / (GLfloat)w, 2.0 * (GLfloat)h / (GLfloat)w, -2.0,
+    glOrtho(-2.0 * (GLfloat)w / (GLfloat)h, 2.0 * (GLfloat)w / (GLfloat)h, -2.0,
             2.0, -10, 10);
   glMatrixMode(GL_MODELVIEW);
 }
